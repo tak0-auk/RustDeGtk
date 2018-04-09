@@ -1,0 +1,17 @@
+[package]
+name = "rgui"
+version = "0.1.0"
+authors = ["takashima <tak0auk@gmail.com>"]
+
+[dependencies]
+gtk = "*"
+gdk = "*"
+gdk-pixbuf = "*"
+cairo-rs = "*"
+pango = "*"
+pangocairo = "*"
+
+futures = "*"
+hyper = "*"
+hyper-tls = "*"
+tokio-core = "*"
